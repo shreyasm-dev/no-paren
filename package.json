@@ -1,0 +1,25 @@
+{
+  "name": "no-paren",
+  "version": "1.0.0",
+  "description": "Functions without parentheses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreyasm-dev/no-paren.git"
+  },
+  "keywords": [
+    "no-parentheses",
+    "parentheses",
+    "parens",
+    "paren"
+  ],
+  "author": "shreyasm-dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shreyasm-dev/no-paren/issues"
+  },
+  "homepage": "https://github.com/shreyasm-dev/no-paren#readme"
+}
