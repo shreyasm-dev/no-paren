@@ -1,6 +1,13 @@
 const argList = {}; // List of function arguments
 
-module.exports = (globalObj, functionName, func) => {
+/**
+ * noParen function
+ * @param {Object} globalObj
+ * @param {String} functionName
+ * @param {Function} func
+ */
+
+const noParen = (globalObj, functionName, func) => {
   Object.defineProperty(
     globalObj,
     functionName,
@@ -16,3 +23,5 @@ module.exports = (globalObj, functionName, func) => {
     },
   );
 };
+
+module.exports = noParen;
