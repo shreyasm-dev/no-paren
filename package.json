@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/shreyasm-dev/no-paren#readme",
   "devDependencies": {
+    "documentation": "^13.1.1",
     "eslint": "^7.21.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
