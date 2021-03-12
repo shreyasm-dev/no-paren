@@ -1,11 +1,12 @@
 {
   "name": "no-paren",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Functions without parentheses",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "docs": "npx documentation build index.js -f md -o docs/index.md --markdown-toc false"
+    "docs": "npx documentation build index.js -f md -o docs/index.md --markdown-toc false",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
