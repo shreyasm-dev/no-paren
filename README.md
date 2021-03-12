@@ -9,7 +9,7 @@ This package is more of a proof-of-concept, and is not meant for use in actual p
 Make sure you have [Node][1] and [NPM][2] installed
 Run `npm i no-paren` to install this package. Run the following code:
 
-```
+```javascript
 const noParen = require('no-paren');
 
 noParen( // Define the
