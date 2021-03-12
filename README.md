@@ -12,7 +12,7 @@ Run `npm i no-paren` to install this package. Run the following code:
 ```javascript
 const noParen = require('no-paren');
 
-noParen( // Define the
+noParen( // Define the paren-less function
   globalThis, // Use global in NodeJS, window in a browser, or globalThis in either
   'error', // Function name
   console.error // The function to run
